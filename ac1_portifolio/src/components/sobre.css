@@ -1,0 +1,45 @@
+.cards {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#sobre {
+    visibility: hidden;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.card h2,
+.apresentacao h2 {
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px;
+    color: #29A6CC;
+    font-weight: 800;
+}
+
+.card p,
+.apresentacao p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#sobre {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 800;
+    visibility: visible !important;
+    display: flex !important;
+    justify-content: center;
+}

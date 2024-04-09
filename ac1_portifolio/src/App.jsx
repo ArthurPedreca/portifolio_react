@@ -6,8 +6,8 @@ function App() {
 
   return (
     <>
-      <Background/>
-      <Titulo/>
+        <Background />
+        <Titulo />
     </>
   )
 }

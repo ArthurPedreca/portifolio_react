@@ -1,0 +1,74 @@
+.custom-form {
+    padding: 20px;
+    border-radius: 5px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-field,
+.textarea-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #fff;
+    background-color: #232b2c;
+}
+
+.textarea-field {
+    height: 100px;
+    resize: none;
+}
+
+.submit-button {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    color: #ffffff;
+    background-color: #293133;
+    border: #ffffff 2px solid;
+    cursor: pointer;
+    font-family: 'Raleway' sans-serif;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.submit-button:hover {
+    transition: .4s;
+    background-color: #29A6CC;
+    border: #29A6CC 2px solid;
+    color: #293133;
+}
+
+.input-field:focus,
+.textarea-field:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #777;
+}
+
+section p {
+    margin: 0 !important;
+    font-size: 1.2rem;
+    color: #00C3FF;
+    font-family: 'Raleway';
+}
+
+.contato {
+    margin: 0 !important;
+}
+
+.pergunta {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

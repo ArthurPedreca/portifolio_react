@@ -1,0 +1,111 @@
+*{
+    position: relative;
+}
+
+.apresentacao {
+    width: 30%;
+    height: 600px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 19%;
+  }
+  
+  .apresentacao img {
+    width: 70%;
+  }
+  
+  .skill-bar {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  label {
+    width: 160px;
+    background-color: #00C3FF;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: #293133;
+    align-items: center;
+    margin-bottom: 5px;
+    height: 25px;
+  }
+  
+  .bar {
+    width: 100%;
+    background-color: #3D5C66;
+    height: 25px;
+    overflow-x: hidden;
+  }
+  
+  .fill1 {
+    height: 100%;
+    background-color: #29A6CC;
+    width: 90%;
+  }
+  
+  .fill2 {
+    height: 100%;
+    background-color: #29A6CC;
+    width: 95%;
+  }
+  
+  .fill3 {
+    height: 100%;
+    background-color: #29A6CC;
+    width: 75%;
+  }
+  
+  .fill4 {
+    height: 100%;
+    background-color: #29A6CC;
+    width: 45%;
+  }
+  
+  .fill5 {
+    height: 100%;
+    background-color: #29A6CC;
+    width: 30%;
+  }
+  
+  .fill6 {
+    height: 100%;
+    background-color: #29A6CC;
+    width: 50%;
+  }
+  
+  .fill7 {
+    height: 100%;
+    background-color: #29A6CC;
+    width: 30%;
+  }
+  
+  .fill8 {
+    height: 100%;
+    background-color: #29A6CC;
+    width: 25%;
+  }
+  
+  .fill9 {
+    height: 100%;
+    background-color: #29A6CC;
+    width: 35%;
+  }
+  
+  .skills {
+    width: 40%;
+  }
+  
+  .organizar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
